@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5f7fa;
+}
+
+.navbar {
+  background: #0b7285;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.container {
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.badge.green {
+  background: green;
+}
+
+.badge.yellow {
+  background: orange;
+}
